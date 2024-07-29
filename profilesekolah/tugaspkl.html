@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.jpg">
+    <title>SMK NURJAMILAH</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #eeeeee;
+        }
+        body::-webkit-scrollbar {
+            overflow-y: scroll;
+            display: none;
+        }
+        .logo {
+            width:2%;
+            height: 90%;
+        }
+        .nav {
+            margin-right: 20px;
+        }
+        .bungkusnav {
+            display: flex;
+            padding: 20px;
+            position: fixed;
+            z-index: 999;
+            background-image: linear-gradient(to left, white 10%, #dc5fa3 100%);
+            width:100%;
+            justify-content: space-around;
+        }
+        .bungkuslogo {
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+        }
+        .judul {
+            color:white;
+            font-weight: bold;
+        }
+        .navul {
+            display: flex;
+            list-style: none;
+            margin-top:8px;
+        }
+        .navli {
+            margin-right:30px;
+            text-align: center;
+        }
+        .logo {
+            margin-right:10px;   
+        }
+        .nava {
+            text-decoration: none;
+            color:#dc5fa3;
+            font-weight: bold;
+            text-align: center;
+        }
+        .nava:hover {
+            color:white;
+            font-weight: bold;
+            text-align: center;
+            background-color:#dc5fa3 ;
+            padding:8px;
+            border-radius: 10px;
+        }
+        #login {
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            text-align: center;
+            background-color:#dc5fa3 ;
+            padding:8px;
+            border-radius: 10px;
+        }
+        #login:hover {
+            color:#dc5fa3;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            border: 2px solid #dc5fa3;
+        }
+        .tentang {
+            position: absolute;
+            margin: 140px 110px;
+            width:40%;
+        }
+        .judul1 {
+            font-size: 30px;
+            font-weight: bold;
+            color :black;
+        }
+        .judul2 {
+            font-size: 50px;
+            font-weight: bold;
+            color :#dc5fa3;
+        }
+        .judul3 {
+            font-size: 50px;
+            font-weight: bold;
+            color :#dc5fa3;
+        }
+        .desk1 {
+            font-size: 15px;
+            font-weight: bold;
+            color: #dc5fa3;
+            padding-top:80px;
+            margin-bottom: 10px;
+        }
+        .desk2 {
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+        #keterangan {
+            padding-bottom: 80px;
+        }
+        #penjelasan {
+            margin-bottom: -50px;
+        }
+        .samping {
+            position: fixed;
+            margin: 60px 640px;
+            width:40%;
+        }
+        .eskulul {
+            font-size: 15px;
+            margin-left: 60px;
+            margin-bottom: 0;
+        }
+        .eskulli {
+            margin-bottom: 10px;
+        }
+        .desksamping {
+            font-size: 15px;
+            font-weight: bold;
+            color :black;
+            padding-top:10px;
+            margin-bottom: 20px;
+        }
+        .kelompok {
+            position: fixed;
+            margin: 140px 880px;
+            width:40%;
+        }
+        .desk5 {
+            font-size: 15px;
+            font-weight: bold;
+
+        }
+        .desk6 {
+            font-size: 30px;
+            font-weight: bold;
+            width:60%;
+            color: #dc5fa3;
+        }
+        .desk7 {
+            font-size: 15px;
+            margin-top: 50px;
+            font-weight: bold;
+        }
+        .gotaul {
+            margin-left: 50px;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+        .gotali {
+            margin-bottom: 10px;
+        }
+        .td {
+            padding: 10px;
+        }
+        .ulgururpl {
+            list-style-type: none;
+        }
+        .infoguru {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .table {
+            margin-bottom: 30px;
+        }
+        .baksos {
+            font-size: 20px;
+            font-weight: bold;
+            color: #dc5fa3;
+            padding-bottom: 15px;
+            padding-top: 30px;
+        }
+        .video {
+            width: 80%;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .deskbs {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bungkusnav">
+        <div class="bungkuslogo">
+            <img src="logo.jpg" alt="" class="logo">
+            <p class="judul">SMK NURJAMILAH BEKASI</p>
+        </div>
+        <nav class="nav">
+            <div class="bungkuslis">
+                <ul class="navul">
+                    <li class="navli"><a href="profilesekolah.html" class="nava">TENTANG</a></li>
+                    <li class="navli"><a href="" class="nava">PROGRAM</a></li>
+                    <li class="navli"><a href="daftar.html"  id="login">LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="tentang">
+        <p class="judul1">PROFILE SEKOLAH</p>
+        <p class="judul2">SMK NURJAMILAH</p>
+        <p class="judul3">KOTA BEKASI</p>
+        <p class="desk1">Apa Itu SMK Nurjamilah Bekasi?</p>
+        <p class="desk2" id="penjelasan">
+             SMk Nurjamilah adalah lembaga SMK yang berada di kota bekasi, 
+            jawa barat. lembaga ini telah berdiri sejak tahun 2005 yakni setelah beberapa 
+            tahun berdiri nya Yayasan Pondok Pesantren Pendidikan Islam Nurjamilah yang
+            sebelumnya di dirikan oleh Alm. Ibunda HJ. Nyai jamilah yang membangun Pesantren
+            di Yayasan Nurjamilah yaitu Bernama Pondok Pesantren Daru Tartila. Yayasan 
+            Nurjamilah mendirikan beberapa lembaga seperti PAUD, TK, SD, SMP & SMK.
+            <br><br>
+            Lembaga SMK NURJAMILAH Sampai saat ini di pimpin oleh Ibunda Robbiatul Addawiyah
+            dan telah memiliki ribuan alumni pada saat ini, dan ratusan alumni pada setiap tahun nya.
+            Dengan fasilitas sekolah cukup memuaskan dan biaya yang tidak terlalu mahal, serta ilmu
+            jurusan yang mudah di pahami dan materi yang mudah di mengerti.
+            <br><br>
+        </p>
+        <p class="desk1">Keahlian Apa Saja Yang Ada Di SMK Nurjamilah Bekasi?</p>
+        <p class="desk2"><b>1.OTKP ( Otomatisasi Tata Kelola Perkantoran )</b></p>
+        <p class="desk2" id="keterangan">
+            Jurusan Otomatisasi dan Tata Kelola Perkantoran (OTKP) atau dulunya Administrasi 
+            Perkantoran (AP) merupakan salah salah satu jurusan di Sekolah Menengah Kejuruan (SMK)
+            yang memberikan bekal tentang pengetahuan, keterampilan, dan sikap dalam menyelesaikan 
+            pekerjaan-pekerjaan perusahaan atau kantor. OTKP salah satu ilmu Manajemen yang mempunyai 
+            spesifikasi khusus dalam bidang perkantoran, artinya dalam ilmu Perkantoran dipelajari 
+            secara detail segala kebutuhan yang berkaitan dengan kegiatan perkantoran. OTKP bertanggung 
+            jawab atas merencanakan kegiatan kantor, menyediakan peralatan kantor, mengatur 
+            perubahan antar departemen, seta membantu tugas manajemen senior untuk menggaji dan memecat karyawan.
+            <br><br>
+            Jurusan Otomatisasi dan Tata Kelola Perkantoran mempelajari segala jenis kegiatan kantor.
+            Mulai dari pembukuan, pengarsipan, hingga public relations. Mayoritas lulusannya bekerja 
+            di lingkungan perkantoran dengan peran diantaranya menjaga kelancaran operasional kantor 
+            sehari-hari termasuk bertindak sebagai perantara dari karyawan dan pimpinan perusahaan ataupun 
+            dengan pihak di luar kantor. Bagi para lulusan yang berminat di bidang seni bisa bekerja di 
+            berbagai galeri, gedung pameran dan teater, mengatur kelancaran operasional sehari-hari 
+            serta mengkoordinir acara-acara jika ada.
+        </p>
+        <p class="desk2"><b>2.RPL ( Rekayasa Perangkat Lunak )</b></p>
+        <p class="desk2" id="keterangan">
+            RPL adalah singkatan dari Rekayasa Perangkat Lunak dan merupakan sebuah jurusan yang ada di 
+            Sekolah Menengah Kejuruan (SMK). RPL adalah sebuah jurusan yang mempelajari dan mendalami semua
+            cara-cara pengembangan perangkat lunak termasuk pembuatan, 
+            pemeliharaan, manajemen organisasi pengembangan perangkat lunak dan manajemen kualitas.
+            <br><br> 
+            Bukan hanya itu, RPL juga berkaitan dengan software komputer mulai dari pembuatan website, aplikasi,
+            game dan semua yang berkaitan dengan pemrograman dengan menguasai bahasa pemrograman tersebut. 
+            Intinya RPL tidak akan jauh-jauh dari tiga hal yaitu Coding, Desain dan Algoritma yang akan menjadi 
+            kunci keberhasilan rekayasa perangkat lunak tersebut.
+            <br><br>
+            Biasanya selain itu jurusan RPL juga mempelajari tentang Perakitan Komputer, Jaringan Dasar dan 
+            masih banyak lagi. Kenapa selalu ada masih banyak lagi? karena jurusan RPL ini bersinggungan dengan 
+            teknologi sehingga perkembanganya mengikuti. Jadi, kesimpulannya RPL (Rekayasa Perangkat Lunak) 
+            itu tidak sekedar Membuat Program (Software) dan Membuat Web saja. RPL (Rekayasa Perangkat Lunak) Itu Luas.
+        </p>
+        <p class="infoguru">Struktur Guru SMK Nurjamilah</p>
+        <table class="table" border ="1">
+            <tr class="tr">
+                <td class="td">Kepala Sekolah</td>
+                <td class="td">Ibu Robbiatul Addawiyah</td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Bina Kesiswaan</td>
+                <td class="td">Ibu Kiki Rosiana</td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Guru RPL</td>
+                <td class="td">
+                    <ul class="ulgururpl">
+                        <li class="gururpl">Pak Ibnu</li>
+                        <li class="gururpl">Pak Lilik Sudarmanto</li>
+                        <li class="gururpl">Pak Darisma Hidayat</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Guru OTKP</td>
+                <td class="td">
+                    <ul class="ulgururpl">
+                        <li class="gururpl">Ibu Kiki Rosiana</li>
+                        <li class="gururpl">Ibu Uswahtun Hasanah</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="baksos">Bakti Sosial</p>
+        <p class="deskbs">
+            Selain menjadi lembaga sekolah, SMK Nurjamilah juga menjadi
+            lembaga sosial di lingkungan sekolah, dengan mengadakan
+            bakti sosial setiap tahun tepatnya di bulan ramadhan.
+        </p>
+        <video src="video.mp4" class="video" controls autoplay></video>
+    </div>
+    <div class="samping">
+        <p class="desk1">Program Ekstrakulikuler</p>
+        <ul class="eskulul">
+            <li class="eskulli">futsal</li>
+            <li class="eskulli">badminton</li>
+            <li class="eskulli">tata boga</li>
+            <li class="eskulli">english Club</li>
+            <li class="eskulli">tata Rias</li>
+            <li class="eskulli">nari</li>
+            <li class="eskulli">teater</li>
+            <li class="eskulli">voly</li>
+            <li class="eskulli"> matematika club</li>
+        </ul>
+        <p class="desksamping">Program Tambahan</p>
+        <ul class="eskulul">
+            <li class="eskulli">Manasik Haji</li>
+            <li class="eskulli">Kunjungan Industri</li>
+            <li class="eskulli">Webinar Kesehatan</li>
+            <li class="eskulli">Deklarasi Anti Tawuran</li>
+            <li class="eskulli">Penerapan P5</li>
+        </ul>
+    </div>
+    <div class="kelompok">
+        <p class="desk5">TUGAS PKL</p>
+        <P class="desk6">MEMBUAT WEBSITE PROFILE SEKOLAH</P>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.jpg">
+    <title>SMK NURJAMILAH LOGIN</title>
+    <style>
+         * {
+            margin:0;
+            padding:0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #eeeeee;
+        }
+        .logo {
+            width: 2%;
+            height: 90%;
+            justify-content: space-around;
+        }
+        .bungkuslogo {
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+        }
+        .bungkusnav {
+            display: flex;
+            padding: 20px;
+            position: fixed;
+            z-index: 999;
+            background-image: linear-gradient(to left, white 10%, #dc5fa3 100%);
+            width:100%;
+            justify-content: space-around;
+        }
+        .judul {
+            color:whitex;
+            font-weight: bold;
+        }
+        .navul {
+            display: flex;
+            list-style: none;
+            margin-top:8px;
+        }
+        .navli {
+            margin-right:30px;
+            text-align: center;
+        }
+        .logo {
+            margin-right:10px;   
+        }
+        .nav {
+            margin-right: 20px;
+        }
+        .nava {
+            text-decoration: none;
+            color:#dc5fa3;
+            font-weight: bold;
+            text-align: center;
+        }
+        .nava:hover {
+            color:white;
+            font-weight: bold;
+            text-align: center;
+            background-color:#dc5fa3 ;
+            padding:8px;
+            border-radius: 10px;
+        }
+        #login {
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            text-align: center;
+            background-color:#dc5fa3 ;
+            padding:8px;
+            border-radius: 10px;
+        }
+        #login:hover {
+            color:#dc5fa3;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            border: 2px solid #dc5fa3;
+        }
+        .login{
+            position: absolute;
+            margin: 180px 500px;
+            background-color: #e08ab9;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 20px;
+        }
+        .judullogin {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+            color: black;
+        }
+        .jnama {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        .nama {
+            font-size: 12px;
+            padding: 5px;
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        .cek {
+            margin-top: 10px;
+        }
+        .kirim {
+            font-size: 15px;
+            padding: 5px;
+            border-radius: 10px;
+            border:none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bungkusnav">
+        <div class="bungkuslogo">
+            <img src="logo.jpg" alt="" class="logo">
+            <p class="judul">SMK NURJAMILAH BEKASI</p>
+        </div>
+        <nav class="nav">
+            <div class="bungkuslis">
+                <ul class="navul">
+                    <li class="navli"><a href="profilesekolah.html" class="nava">TENTANG</a></li>
+                    <li class="navli"><a href="" class="nava">PROGRAM</a></li>
+                    <li class="navli"><a href=""  id="login">LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="login">
+        <p class="judullogin">LOGIN</p>
+        <form action="" method="POST">
+            <p class="jnama">Nama Lengkap</p>
+            <input type="text" name="nama" id="nama" class="nama">
+            <p class="jnama">Kode Login</p>
+            <input type="password" name="nama" id="kodelogin" class="nama">
+            <br>
+            <input type="checkbox" class="cek" onclick="myFunction()">  Tampilkan Kode Login
+            <br><br>
+            <input type="submit" class="kirim" value="Kirim" name="kirim">
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("kodelogin");
+                    if (x.type === "password") {
+                        x.type = "text";
+                    } 
+                    else {
+                        x.type = "password";
+                    }
+                }
+            </script>
+        </form>
+    </div>
+</body>
+</html>
